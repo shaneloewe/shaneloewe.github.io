@@ -57,6 +57,7 @@ hr {
 }
 
 li {
+    text-align: left;
     margin: 5px 3em;
     padding: 0px;
 }
