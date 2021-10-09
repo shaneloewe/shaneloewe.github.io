@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color:beige;
     padding: 0px;
     margin: 0px;
 }
@@ -41,6 +42,10 @@ header {
     font-family: sans-serif;
     height: 120px;
     padding: 0;
+}
+
+main {
+    background-color:beige;
 }
 
 header * {
