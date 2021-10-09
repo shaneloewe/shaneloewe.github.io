@@ -18,7 +18,7 @@ article {
 
 aside {
     background-color: #E7ECB0;
-    text-align: center;
+    text-align: left;
     font-size: 50px;
     font-family: sans-serif;
     color: white;
@@ -28,10 +28,15 @@ aside {
 }
 
 footer {
+    background-color: #E7ECB0;
     clear: both;
     text-align: center;
     margin: 2em;
     padding: 2em;
+}
+
+main {
+    background-color:#E7ECB0;
 }
 
 header {
