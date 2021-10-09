@@ -43,12 +43,12 @@ header {
 }
 
 header * {
-    color: #F6B018;
+    color: #FAC45A;
 }
 
 hr {
     padding: 0px;
-    border: 4px solid #F6B018;
+    border: 4px solid #FAC45A;
 }
 
 li {
@@ -73,7 +73,7 @@ li {
     padding: 2em;
     box-shadow: 2px 2px 5px #E7ECB0;
     background-color: #eeeeee;
-    border: 3px solid #0E3D65;
+    border: 3px solid #040404;
     border-radius: 10px;
     width: 50%;
     float: left;
