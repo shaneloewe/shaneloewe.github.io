@@ -10,19 +10,19 @@ body {
 }
 
 article {
-    border: 1px solid gray;
-    box-shadow: 2px 2px 5px gray;
+    border: 1px solid #E7ECB0;
+    box-shadow: 2px 2px 5px #E7ECB0;
     margin: 3em;
     padding: 1em;
 }
 
 aside {
-    background-color: gray;
+    background-color: #E7ECB0;
     text-align: center;
     font-size: 50px;
     font-family: sans-serif;
     color: white;
-    border: 2px solid red;
+    border: 2px solid #040404;
     float: right;
     width: 30%;
 }
@@ -35,8 +35,8 @@ footer {
 }
 
 header {
-    border: 3px solid #F6B018;
-    background-color: #0E3D65;
+    border: 3px solid #040404;
+    background-color: #FAC45A;
     font-family: sans-serif;
     height: 120px;
     padding: 0;
@@ -63,7 +63,7 @@ li {
     width: 80px;
     float: right;
     background-color: white;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px #E7ECB0;
     border-radius: 5px;
     border: 1px solid white;
     padding: 0;
@@ -71,7 +71,7 @@ li {
 
 .page {
     padding: 2em;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px #E7ECB0;
     background-color: #eeeeee;
     border: 3px solid #0E3D65;
     border-radius: 10px;
@@ -84,7 +84,7 @@ body {
 }
 
 h1 {
-    color: red;
+    color: #0F314D;
     text-align: center;
-    background-color: gray;
+    background-color: #E7ECB0;
 }
