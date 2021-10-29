@@ -28,7 +28,7 @@ aside {
     width: 30%;
 }
 
-footer {
+.wanted_footer {
     background-color: #E7ECB0;
     clear: both;
     text-align: center;
@@ -36,7 +36,7 @@ footer {
     padding: 2em;
 }
 
-header {
+.wanted_header {
     border: 3px solid #040404;
     background-color: #FAC45A;
     font-family: sans-serif;
