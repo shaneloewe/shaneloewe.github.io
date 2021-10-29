@@ -12,7 +12,7 @@
   border-bottom: 1px solid #ebebeb;
 }
 #topHeader a{
-  color: #2c3e50;
+  color: #ffffff;
   font-weight: 600;
   font-size: 0.89rem;
 }
@@ -27,7 +27,7 @@ nav ul li a {
 
 /* START : Footer */
 .full-footer{
-  background-color: #243c4f;
+  background-color: #28593E;
   
 }
 .top-footer p{
@@ -41,7 +41,7 @@ nav ul li a {
   color: white;
 }
 .bottom-footer{
-  background-color: #031b2e;
+  background-color: #1d412d;
 }
 .bottom-footer p{
   color: white;
