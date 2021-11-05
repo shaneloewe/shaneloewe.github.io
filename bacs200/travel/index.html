@@ -32,84 +32,46 @@
 </head>
 
 <body>
-    <header>
-        <div class="p-1" id="topHeader">
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 text-right">
-                        <a class="p-1" href="tel: +1(970)815-4390"> <i class="fas fa-phone"></i> +1(970)815-4390 </a>
-                        <a class="p-1" href="mailto:shaneloewe@gmail.com  "> <i class="fas fa-envelope"></i>
-                            shaneloewe@gmail.com </a>
-                    </div>
+                <a class="navbar-brand" href="#">North Star Travel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#"
+                                aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../profile.html">Profile Page</a>
+                                <a class="dropdown-item active" href="../inspire.html">My Inspiration</a>
+                                <a class="dropdown-item" href="../amuse.html">Amuse Me</a>
+                                <a class="dropdown-item" href="../educate.html">Educate Me</a>
+                                <a class="dropdown-item" href="../test.html">Page Tester</a>
+                                <a class="dropdown-item" href="../superhero.html">Superhero Gallery</a>
+                                <a class="dropdown-item" href="../wanted.html">Wanted Poster</a>
+                                <a class="dropdown-item" href="../blog.html">Business Blog</a>
+                                <a class="dropdown-item" href="../nonprofit.html">Nonprofit Blog</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../profile.html">About Me</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
-        </div>
-        <div id="bottomHeader">
-            <div class="container-fluid">
-                <nav class="navbar navbar-dark navbar-expand-md" style="background-color:#3A8059;">
-                    <a class="navbar-brand" href="">
-                        <img src="../images/logo_white.png" width="50px" alt="">
-                    </a>
-                    <button data-toggle="collapse" data-target="#navbarToggler" type="button"
-                        class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarToggler">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#"
-                                    aria-expanded="false">Projects</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="../profile.html">Profile Page</a>
-                                    <a class="dropdown-item active" href="../inspire.html">My Inspiration</a>
-                                    <a class="dropdown-item" href="../amuse.html">Amuse Me</a>
-                                    <a class="dropdown-item" href="../educate.html">Educate Me</a>
-                                    <a class="dropdown-item" href="../test.html">Page Tester</a>
-                                    <a class="dropdown-item" href="../superhero.html">Superhero Gallery</a>
-                                    <a class="dropdown-item" href="../wanted.html">Wanted Poster</a>
-                                    <a class="dropdown-item" href="../blog.html">Business Blog</a>
-                                    <a class="dropdown-item" href="../nonprofit.html">Nonprofit Blog</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../profile.html">About Me</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-
-            </div>
-        </div>
-        <div>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">North Star Travel</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        </nav>
+    </div>
     </header>
 
     <main>
