@@ -6,7 +6,7 @@
 
 #grid-container > div {
    text-align: center;
-   background: lightgreen;
+   background: lightblue;
    border: 3px solid green;
    padding: 20px;
 }
