@@ -2,16 +2,21 @@
    display: grid;
    grid-template-columns: auto auto auto;
    grid-gap: 25px;
+   padding: 20px;
 }
 
 #grid-container > div {
    text-align: center;
-   background: lightblue;
-   border: 3px solid green;
+   background: white;
+   border: 3px solid white;
    padding: 20px;
 }
 
 .card-body {
     padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
 }
 
