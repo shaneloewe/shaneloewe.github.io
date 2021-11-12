@@ -5,6 +5,13 @@
    padding: 20px;
 }
 
+#grid-container > div {
+   text-align: left;
+   background: white;
+   border: 3px solid white;
+   padding: 20px;
+}
+
 .card-body {
     padding: 1.25rem;
 }
